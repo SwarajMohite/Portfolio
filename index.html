@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohite Swaraj - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #002460; /* Background color for the whole webpage */
+            color: #333; /* Main font color */
+        }
+        header {
+            background-color: rgb(254, 208, 0); /* Semi-transparent background for header */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for navigation */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for sections */
+            border-radius: 5px;
+            animation: slideIn 1s ease-out;
+        }
+        footer {
+            background-color: rgb(0, 114, 188); /* Semi-transparent background for footer */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        /* Animation Keyframes */
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mohite Swaraj</h1>
+        <p>Computer Engineering Student</p>
+	<p>A Programmer</p>
+	<img src="Portfolio.jpg" width="250" height="350" border="2px">
+    </header>
+    <nav>
+        <a href="#about">About</a>
+	<a href="info.html">Memoranda</a>
+	<a href="Skills.html">Skills</a>
+        <a href="Marks.html">Marks</a>
+        <a href="#contact">Contact</a>
+	 <a href="#feedback">Feedack</a>
+    </nav>
+    <marquee behavior="scroll" direction="left">Welcome to Mohite Swaraj's Portfolio!</marquee>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello World.. I am<b> Mohite Swaraj Sanjay</b><br><br>
+           <br>A focused Computer Engineer ( Programmer ).. Pursuing Diploma in Computer Engineering from Government Polytechnic, Pune <br>
+	   <br>I have completed my SSC board(10th) from M.E.S. Sou. Vimalabai Garware Highschool, Pune<br>
+	   <br>I have beeen participated in different competitions.... <br>
+	   <br>I am probably 15 years old..<br>
+	   <br>I am intereseted in Mathematics, AI, Painting and Nature...<br>
+	  <br> Languages : C, C++, HTML, CSS and Mathematics <br>
+   	   <br>~ Marathi ( Mother Tongue ), English , Hindi, Sanskrit
+        </p>
+    </section>
+    
+    <section id="marks">
+        <h2>Education Details</h2>
+        <p> Board : SSC<br>
+	    Year : 2022-2023<br>
+            Percentage : 97.60%<br>
+	    <hr>
+            Branch : Computer Engineering<br>
+            Year : First Year Diploma<br>
+	    Percentage : 87.64%
+        </p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            <a href ="mailto:@gmail.com">Mail me</a><br>
+<br>
+<a href="https://github.com/SwarajMohite">My Github</a><br>
+<p> Contact No. : 831727****</p>
+            
+        </p>
+    </section>
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+               <form height="50%" width="40%" >
+        First name:<input type="text" name="fname" placeholder="Enter the first name" required><br><br>
+        <!-- here the placeholder is the attribute of the input tag where it specifies the hint to user to enter the input-->
+        Last name:<input type="text" name="lname" placeholder="Enter the last name" required><br><br>
+        DOB:<input type="date" name="date"><br><br>
+        Email id:<input type="email" name="email" placeholder="Enter your email adddress" required><br><br>
+        Gender:<input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="male">Female:<input type="radio" name="gender" value="male">other<br><br>
+        How is the Portfolio: <input type="checkbox" value="Poor" name="feed">Poor
+        <input type="checkbox" value="Average" name="feed">Average
+        <input type="checkbox" value="Good" name="feed">Good
+        <input type="checkbox" value="Best" name="feed">Best<br><br>
+        Qualification<select name="qual">
+            <option value="10th">10th</option>
+            <option value="12th">12th</option>
+            <option value="Graduate">Graduate</option>
+            <option value="undergraduation">undergraduation</option>
+
+        </select><br><br>
+        <input type="submit" value="submit" name="submit" alert="url('Main.html')">
+        <input type="reset" value="reset" name="reset"><br><br><br>
+
+        
+    </form>
+    <footer>
+        <p>&copy; 2024 MOHITE SWARAJ - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
